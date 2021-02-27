@@ -6,7 +6,6 @@ import pdb
 from tqdm import tqdm
 import faiss
 import nmslib
-import pysparnn.cluster_index as ci
 
 from IPython import embed
 

@@ -99,8 +99,8 @@ def main(args):
     LOGGER.info("acc@4={}".format(result_evalset['acc4']))
     LOGGER.info("acc@8={}".format(result_evalset['acc8']))
     LOGGER.info("acc@16={}".format(result_evalset['acc16']))
-    LOGGER.info("acc@32={}".format(result_evalset['acc32']))
-    LOGGER.info("acc@64={}".format(result_evalset['acc64']))
+    # LOGGER.info("acc@32={}".format(result_evalset['acc32']))
+    # LOGGER.info("acc@64={}".format(result_evalset['acc64']))
     
     if args.save_predictions:
         output_file = os.path.join(args.output_dir,"predictions_eval.json")
